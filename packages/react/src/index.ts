@@ -1,3 +1,3 @@
-import { colors } from "@dutra-ui/tokens";
+import { colors } from '@dutra-ui/tokens'
 
-console.log(colors);
+console.log(colors)

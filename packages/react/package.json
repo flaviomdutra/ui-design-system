@@ -7,7 +7,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@dutra-ui/tokens": "*",
     "@dutra-ui/ts-config": "*",
+    "@dutra-ui/eslint-config": "*",
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   }
