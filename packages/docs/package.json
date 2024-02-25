@@ -24,10 +24,8 @@
     "@storybook/testing-library": "^0.2.2",
     "@storybook/theming": "^7.6.17",
     "@types/react": "^18.2.58",
-    "@vitejs/plugin-react": "^4.2.1",
     "babel-loader": "^8.3.0",
-    "storybook": "^7.6.17",
-    "vite": "^4.1.0"
+    "storybook": "^7.6.17"
   },
   "dependencies": {
     "@dutra-ui/eslint-config": "*",
