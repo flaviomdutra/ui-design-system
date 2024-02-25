@@ -4,13 +4,38 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-devDependencies:
-  tsup:
-    specifier: ^8.0.2
-    version: 8.0.2(typescript@5.3.3)
-  typescript:
-    specifier: ^5.3.3
-    version: 5.3.3
+importers:
+
+  .: {}
+
+  packages/react:
+    devDependencies:
+      '@dutra-ui/tokens':
+        specifier: '*'
+        version: link:../tokens
+      '@dutra-ui/ts-config':
+        specifier: '*'
+        version: link:../ts-config
+      tsup:
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
+      typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
+
+  packages/tokens:
+    devDependencies:
+      '@dutra-ui/ts-config':
+        specifier: '*'
+        version: link:../ts-config
+      tsup:
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
+      typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
+
+  packages/ts-config: {}
 
 packages:
 
