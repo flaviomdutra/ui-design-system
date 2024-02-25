@@ -14,6 +14,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@storybook/addon-actions": "^7.6.17",
+    "@storybook/addon-docs": "^7.6.17",
     "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-interactions": "^7.6.17",
     "@storybook/addon-links": "^7.6.17",
@@ -21,14 +22,20 @@
     "@storybook/react": "^7.6.17",
     "@storybook/react-vite": "^7.6.17",
     "@storybook/testing-library": "^0.2.2",
+    "@storybook/theming": "^7.6.17",
+    "@types/react": "^18.2.58",
+    "@vitejs/plugin-react": "^4.2.1",
     "babel-loader": "^8.3.0",
-    "storybook": "^7.6.17"
+    "storybook": "^7.6.17",
+    "vite": "^4.1.0"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@dutra-ui/eslint-config": "*",
     "@dutra-ui/react": "*",
     "@dutra-ui/tokens": "*",
-    "@dutra-ui/eslint-config": "*"
+    "@dutra-ui/ts-config": "*",
+    "polished": "^4.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
