@@ -8,7 +8,7 @@ export interface TextInputProps extends ComponentProps<typeof Input> {
 
 // eslint-disable-next-line react/display-name
 export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
-  ({ prefix, containerProps, ...props }, ref) => {
+  ({ prefix, containerProps, ...props }: TextInputProps, ref) => {
     return (
       <TextInputContainer {...containerProps}>
         {!!prefix && <Prefix>{prefix}</Prefix>}
