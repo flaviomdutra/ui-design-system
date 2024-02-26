@@ -32,6 +32,7 @@
     "@dutra-ui/react": "*",
     "@dutra-ui/tokens": "*",
     "@dutra-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^7.6.17",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
     "react": "^18.2.0",
