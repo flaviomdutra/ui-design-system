@@ -1,4 +1,4 @@
 {
-  "extends": "@dutra-ui/ts-config/react.json",
+  "extends": "@ds-dutra-ui/ts-config/react.json",
   "include": ["src"]
 }

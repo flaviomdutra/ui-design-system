@@ -1,5 +1,5 @@
 {
-  "name": "@dutra-ui/docs",
+  "name": "@ds-dutra-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -32,10 +32,10 @@
     "vite": "^4.5.2"
   },
   "dependencies": {
-    "@dutra-ui/eslint-config": "*",
-    "@dutra-ui/react": "*",
-    "@dutra-ui/tokens": "*",
-    "@dutra-ui/ts-config": "*",
+    "@ds-dutra-ui/eslint-config": "*",
+    "@ds-dutra-ui/react": "*",
+    "@ds-dutra-ui/tokens": "*",
+    "@ds-dutra-ui/ts-config": "*",
     "@storybook/addon-a11y": "^7.6.17",
     "@storybook/storybook-deployer": "^2.8.16",
     "phosphor-react": "^1.4.1",

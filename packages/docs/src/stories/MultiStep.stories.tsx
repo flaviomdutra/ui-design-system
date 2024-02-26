@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, MultiStep, MultiStepProps } from '@dutra-ui/react'
+import { Box, MultiStep, MultiStepProps } from '@ds-dutra-ui/react'
 
 export default {
   title: 'Form/Multi Step',

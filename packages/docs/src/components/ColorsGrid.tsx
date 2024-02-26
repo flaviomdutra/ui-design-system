@@ -1,4 +1,4 @@
-import { colors } from '@dutra-ui/tokens'
+import { colors } from '@ds-dutra-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

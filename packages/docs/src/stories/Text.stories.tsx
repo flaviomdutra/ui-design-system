@@ -1,4 +1,4 @@
-import { Text, TextProps } from '@dutra-ui/react'
+import { Text, TextProps } from '@ds-dutra-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

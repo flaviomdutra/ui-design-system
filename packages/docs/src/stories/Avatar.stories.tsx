@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Avatar, AvatarProps } from '@dutra-ui/react'
+import { Avatar, AvatarProps } from '@ds-dutra-ui/react'
 
 export default {
   title: 'Data display/Avatar',

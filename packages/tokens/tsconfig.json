@@ -1,4 +1,4 @@
 {
-  "extends": "@dutra-ui/ts-config/base.json",
+  "extends": "@ds-dutra-ui/ts-config/base.json",
   "include": ["src"]
 }

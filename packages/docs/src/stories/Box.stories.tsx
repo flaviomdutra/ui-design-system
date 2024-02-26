@@ -1,4 +1,4 @@
-import { Box, BoxProps, Text } from '@dutra-ui/react'
+import { Box, BoxProps, Text } from '@ds-dutra-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

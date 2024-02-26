@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@dutra-ui/tokens'
+} from '@ds-dutra-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
