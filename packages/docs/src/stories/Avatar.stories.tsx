@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/flaviomdutra.png',
     alt: 'Flávio Dutra',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
