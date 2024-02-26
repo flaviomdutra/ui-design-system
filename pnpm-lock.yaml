@@ -26,6 +26,9 @@ importers:
       '@dutra-ui/ts-config':
         specifier: '*'
         version: link:../ts-config
+      phosphor-react:
+        specifier: ^1.4.1
+        version: 1.4.1(react@18.2.0)
       polished:
         specifier: ^4.3.1
         version: 4.3.1
